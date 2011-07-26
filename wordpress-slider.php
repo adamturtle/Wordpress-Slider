@@ -96,12 +96,12 @@ function ws_slider($options){
 						
 	if(have_posts()) :
 		// Check the necessary plugin is enabled
-			if( !function_exists(get_fields) ){
+			if( !function_exists('get_field') ){
 				echo ws_error('Please activate/install Advanced Custom Fields plugin to enable slider');
 			} else { 
 			
 			// Output slider HTML	?>
-
+						
 			<section id="homepage_banner">						
 				<div id="<?php echo $options['container_id']; ?>">
 				  <div class="slides_container">	

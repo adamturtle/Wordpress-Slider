@@ -1,8 +1,5 @@
 .slides_container {
 	position: relative;
-	margin-bottom: 25px;
-	padding-bottom: 19px;
-	border-bottom: 1px solid #d7d8da;
 }
 .slides_container .slide {
 	height: 340px;	
